@@ -28,6 +28,16 @@ const Input = styled.input`
 
 const Label = styled.label``;
 
+const Button = styled.button`
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color: #2c73d2;
+    color: #fff;
+    height: 42px;
+`;
+
 
 const Form = ({ onEdit }) => {
     const ref = useRef();
@@ -48,8 +58,10 @@ const Form = ({ onEdit }) => {
             </InputArea>
             <InputArea>
                 <Label>Data de Nascimento</Label>
-                <Input name="data_nascimento" />
+                <Input name="data_nascimento" type="date" />
             </InputArea>
+
+            <Button type="submit">Salvar</Button>
         </FormContainer>
     );
 };
