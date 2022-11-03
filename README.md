@@ -113,11 +113,19 @@ yarn start
 - Localhost: http://localhost:8800/
 
 
+##
+### Front-End
+##
 
+- Criar a pasta `frontend`
+- Acessar a pasta `frontend`
+- criar o projeto react na pasta `frontend`
 
+```
+npx create-react-app ./
+```
 
-
-
+**Bibliotecas**
 
 
 
