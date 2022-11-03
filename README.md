@@ -132,6 +132,22 @@ npx create-react-app ./
 yarn add styled-components axios react-icons react-toastify
 ```
 
+**Fonts**
+
+- Fonte **Poppins**
+
+- Site: https://fonts.google.com/
+
+- Peso das fontes: 400 Regular, 500 Medium, 600 SimiBold.
+
+```html
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+```
+
+- Colar em `index.html`
+
 
 
 
