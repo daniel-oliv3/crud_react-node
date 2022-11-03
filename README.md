@@ -119,16 +119,18 @@ yarn start
 
 - Criar a pasta `frontend`
 - Acessar a pasta `frontend`
-- criar o projeto react na pasta `frontend`
+- Criar o projeto react na pasta `frontend`
 
 ```
 npx create-react-app ./
 ```
 
 **Bibliotecas**
+- Styled-Components, Axios, React-icons, React-toastify
 
-
-
+```
+yarn add styled-components axios react-icons react-toastify
+```
 
 
 
