@@ -149,8 +149,11 @@ yarn add styled-components axios react-icons react-toastify
 - Colar em `index.html`
 
 
-
-
+**Rodar o projeto**
+- Comando para rodar o projeto `frontend` no terminal
+```
+yarn start
+```
 
 
 
