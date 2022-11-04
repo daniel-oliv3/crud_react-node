@@ -27,13 +27,30 @@ export const addUser = (req, res) => {
 
         return res.status(200).json("Usuário criado com sucesso!");
     });
+};
+
 
 /* Update */
+export const updateUser = (req, res) => {
+    const q = "UPDATE usuarios SET `nome` = ?, `email` = ?, `telefone` = ?, `data_nascimento` = ? WHARE `id` = ?";
+
+    const values = [
+        req.body.nome,
+        req.body.email,
+        req.body.telefone,
+        req.body.data_nascimento,
+    ];
+
+    db.query(q, [...values, req.params.id], (err) => {
+        if(err) return res.json(err);
+
+        return res.status(200).json("Usuário atualizado com sucesso!");
+    });
+};
 
 
 
 
-}
 
 
 
